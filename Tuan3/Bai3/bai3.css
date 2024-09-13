@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+    margin: auto;
+    padding: 0;
+}
+
+.outer {
+    height: 609px;
+    width: 787px;
+    border: 1px solid #000;
+}
+
+.header {
+    height: 58px;
+    width: 787px;
+    background-color: #A54D13;
+}
+
+.header h1 {
+    font-size: 30px;
+    color: #828000;
+    padding: 10px;
+    text-shadow: 0 -10px 8px #FFFFFB
+}
+
+.menu {
+    height: 20px;
+    width: auto;
+    background-color: #FFFFFB;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(240, 85, 18);
+}
+
+.menu ul {
+    display: flex;
+    list-style-type: none;
+    width: 450px;
+    margin-left: 20px;
+    padding-top: 0px;
+}
+
+.menu ul li {
+    font-size: 15px;
+    color: #B98D7D;
+}
+
+.banner {
+    height: 108px;
+    width: 787px;
+}
+
+.banner img {
+    height: 108px;
+    width: 787px;
+}
+
+.nav {
+    width: 787px;
+    height: 431px;
+    float: left;
+}
+
+.form {
+    width: 393px;
+    height: 420px;
+    list-style-type: none;
+    float: left;
+}
+
+.form h4 {
+    color: #A69D7F;
+    font-size: 15px;
+    padding-left: 20px;
+}
+
+.form h3 {
+    padding: 10px 0px;
+    color: #B39926;
+}
+
+.form li {
+    padding: 15px 0px;
+}
+
+.form h2 {
+    background-color: #828000;
+    width: 200px;
+    height: 35px;
+    text-align: center;
+    color: white;
+    float: left;
+    margin: 40px 0px 0px 30px;
+}
+
+.right {
+    width: 394px;
+    height: 421px;
+    float: right;
+    list-style-type: none;
+    padding: 0 30px;
+}
+
+#right {
+    width: 300px;
+    height: 200px;
+    background-color: #A54D13;
+}
+
+.right #right #h2 {
+    padding: 10px 30px;
+    color: #321904fa;
+}
+
+.right #h22 {
+    padding: 10px 30px;
+    color: #321904fa;
+    text-align: center;
+}
+
+.right ul {
+    padding-left: 80px;
+    margin-top: 30px;
+    color: #ee710bfa;
+}
+
+.right #img {
+    width: 100px;
+    height: 80px;
+    border: 1px black solid;
+    padding: 5px 5px;
+    float: left;
+}
+
+.right #p1 {
+    width: 200px;
+    height: 85px;
+    float: left;
+    padding-left: 20px;
+}
+
+.footer img {
+    clear: both;
+    height: 50px;
+    width: 787px;
+}
